@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
      
       home: BlocProvider(
         create:(context)=>CubitForBottomNavigationBar(),
-        child:   const PageBottomNavigationBar(),
+        child:  const  PageBottomNavigationBar(),
         ),
     );
   }
